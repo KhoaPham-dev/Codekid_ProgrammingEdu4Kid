@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="Homepage.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Header">
+        <h3>Lập trình cho trẻ thơ</h3>
+        <img id="Logo" src="./Image/Logo.png" />
+        <div style="clear: both"></div>
+      </div>
+      <div class="Menu">
+        <ul id="A1" type="none">
+          <li><a href="./index.html">Trang chủ</a></li>
+          <li><a href="./Challenge/Challenge.html">Vui học cùng Python</a></li>
+          <li><a href="./Game/Game.html">Vui học cùng Javascript</a></li>
+          <li><a href="./aboutus.html">Về chúng tôi</a></li>
+        </ul>
+      </div>
+      <div class="IntroSlide">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="SlidePicture"
+                src="./Image/BANNER02.gif"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="SlidePicture"
+                src="./Image/BANNER01.jpg"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="SlidePicture"
+                src="./Image/BANNER03.jpg"
+                class="d-block w-100"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="GAP"></div>
+      <div class="Content">
+        <div id="Content1" data-aos="fade-left">
+          <div class="card" style="width: 60%; float: left">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: bold">
+                Theo bạn Python là gì ?
+              </h5>
+              <p class="card-text">
+                Python là ngôn ngữ lập trình hướng đối tượng bậc cao, dùng để
+                phát triển website và nhiều ứng dụng khác nhau. Python được tạo
+                ra bởi Guido van Rossum và được phát triển trong một dự án mã mở
+                (open source). Với cú pháp cực kì đơn giản và thanh lịch, Python
+                là lựa chọn hoàn hảo cho những ai lần đầu tiên học lập trình.
+                Tuy nhiên, đây cũng là ngôn ngữ nổi tiếng về sự chặt chẽ, nhanh,
+                mạnh, và có mặt ở mọi hệ điều hành. Được sử dụng trong lập trình
+                từ những game đơn giản nhất, cho đến những thuật toán tìm kiếm
+                phức tạp nhất, Python không hổ danh là ngôn ngữ dành cho cả
+                newbie lẫn hacker.
+              </p>
+            </div>
+          </div>
+          <img src="./Image/PYK.jpg" />
+        </div>
+        <div style="clear: both"></div>
+        <div id="Content2" data-aos="fade-right">
+          <div class="card mb-3" style="width: 100%; height: 25em">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="./Image/JSK.jpg" />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-weight: bold">
+                    Tại sao bạn phải học Javascript ?
+                  </h5>
+                  <p class="card-text">
+                    Với cuộc cách mạng Công nghiệp 4.0 đang tiến triển và
+                    website đang trở thành ưu tiên lớn như vậy đối với các chủ
+                    doanh nghiệp muốn mở rộng và phát triển quy mô, Javascript
+                    đang trở thành một thứ ngôn ngữ cực kỳ mạnh mẽ cho tất cả
+                    các lập trình viên học hỏi và phát triển website.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Content3" data-aos="fade-up">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Bạn sẽ học được gì từ trang web này</h5>
+              <p class="card-text">
+                Các đoạn văn là các khối xây dựng của giấy tờ. Nhiều học sinh
+                định nghĩa đoạn văn theo độ dài: một đoạn văn gồm ít nhất năm
+                câu, một đoạn văn dài nửa trang, ... Tuy nhiên, trong thực tế,
+                sự thống nhất và chặt chẽ của các ý giữa các câu là yếu tố tạo
+                nên một đoạn văn. Một đoạn văn được định nghĩa là “một nhóm các
+                câu hoặc một câu đơn lẻ tạo thành một đơn vị” (Lunsford và
+                Connors 116). Độ dài và hình thức không xác định xem một phần
+                trong bài báo có phải là một đoạn văn hay không. Ví dụ, trong
+                một số phong cách viết, đặc biệt là phong cách báo chí, một đoạn
+                văn có thể chỉ dài một câu. Cuối cùng, một đoạn văn là một câu
+                hoặc một nhóm câu hỗ trợ một ý chính. Trong tài liệu này, chúng
+                tôi sẽ gọi đây là “ý tưởng kiểm soát”, vì nó kiểm soát những gì
+                xảy ra trong phần còn lại của đoạn văn.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer">
+        <div class="Copyright">
+          <h5>Copyright by NEWBIES'S TEAM</h5>
+        </div>
+        <div class="Contest">
+          <h5>HCMUTE'S HACKATHON 2020</h5>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+  </body>
+</html>

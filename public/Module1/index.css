@@ -1,0 +1,53 @@
+*{
+    padding: 0px auto;
+    margin: 0px auto;
+    font-family: 'Alfa Slab One', cursive;
+}
+.Header{
+    width: 100%;
+    color: white;
+    background-color:#4e9ddd;
+}
+.Header h3{
+    font-size: 2em;
+    line-height: 2.5em;
+    float: left;
+    margin-left: 1.5em;
+}
+#Logo{
+    width: 5em;
+    height: 3.5em;
+    margin-top: 0.4em;
+    margin-right: 1.5em;
+    float: left;
+}
+
+.Menu{
+    width: 100%;
+    background-color:  #4e9ddd;
+    line-height: 3em;
+    margin: 1em 0em;
+}
+
+.Menu #A1{
+    list-style-type: none;
+    text-align: center;
+    margin-left: -2em;
+}
+
+.Menu #A1 li{
+    display: inline-table;
+    width: 19%;
+}
+
+.Menu #A1 li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.Menu #A1 li a:hover{
+    cursor: pointer;
+    color: black;
+    background-color:white;
+}
